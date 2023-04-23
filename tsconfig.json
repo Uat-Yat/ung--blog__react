@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compileOnSave": true,
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*"],
+  "compilerOptions": {
+    "target": "es2016",
+    "jsx": "preserve",
+    "module": "ES6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+
+    // "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "useDefineForClassFields": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true
+  }
+}

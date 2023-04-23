@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/babelrc",
+  "presets": [
+    ["@babel/preset-react", { "runtime": "automatic" }],
+    [
+      "@babel/preset-env",
+      { "modules": false, "useBuiltIns": "usage", "corejs": "3.3" }
+    ],
+    ["@babel/preset-typescript", { "optimizeConstEnums": true }]
+  ]
+}
